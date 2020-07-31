@@ -1,0 +1,24 @@
+{
+  "name": "library",
+  "version": "1.0.2",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cosmos",
+    "build": "rm -rf lib && tsc && cpx \"src/**/*.svg\" lib",
+    "postversion": "git push origin && git push origin --tags"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.44",
+    "@types/react-dom": "^16.9.8",
+    "awesome-typescript-loader": "^5.2.1",
+    "cpx": "^1.5.0",
+    "html-webpack-plugin": "^4.3.0",
+    "react": "^16.13.1",
+    "react-cosmos": "^5.4.0",
+    "react-dom": "^16.13.1",
+    "svg-react-loader": "^0.4.6",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1"
+  }
+}
