@@ -1,6 +1,6 @@
 {
   "name": "library",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -9,11 +9,15 @@
     "postversion": "git push origin && git push origin --tags"
   },
   "devDependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
     "@emotion/types": "^0.7.0",
+    "@styled-system/should-forward-prop": "^5.1.5",
     "@types/clone": "^0.1.30",
     "@types/react": "^16.9.44",
     "@types/react-dom": "^16.9.8",
     "@types/styled-system": "^5.1.10",
+    "@types/styled-system__should-forward-prop": "^5.1.1",
     "awesome-typescript-loader": "^5.2.1",
     "clone": "^2.1.2",
     "cpx": "^1.5.0",
@@ -21,21 +25,17 @@
     "react": "^16.13.1",
     "react-cosmos": "^5.4.0",
     "react-dom": "^16.13.1",
+    "styled-system": "^5.1.5",
     "svg-react-loader": "^0.4.6",
     "typescript": "^3.9.7",
-    "webpack": "^4.44.1",
-    "styled-system": "^5.1.5",
-    "@emotion/core": "^10.0.28",
-    "@styled-system/should-forward-prop": "^5.1.5",
-    "@types/styled-system__should-forward-prop": "^5.1.1",
-    "@emotion/styled": "^10.0.27"
+    "webpack": "^4.44.1"
   },
   "peerDependencies": {
-    "styled-system": "^5.1.5",
     "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
     "@styled-system/should-forward-prop": "^5.1.5",
     "@types/styled-system__should-forward-prop": "^5.1.1",
-    "@emotion/styled": "^10.0.27"
+    "styled-system": "^5.1.5"
   },
   "dependencies": {}
 }
