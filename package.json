@@ -9,16 +9,27 @@
     "postversion": "git push origin && git push origin --tags"
   },
   "devDependencies": {
+    "@emotion/styled": "^10.0.27",
+    "@emotion/types": "^0.7.0",
+    "@styled-system/should-forward-prop": "^5.1.5",
+    "@types/clone": "^0.1.30",
     "@types/react": "^16.9.44",
     "@types/react-dom": "^16.9.8",
+    "@types/styled-system": "^5.1.10",
+    "@types/styled-system__should-forward-prop": "^5.1.1",
     "awesome-typescript-loader": "^5.2.1",
+    "clone": "^2.1.2",
     "cpx": "^1.5.0",
     "html-webpack-plugin": "^4.3.0",
     "react": "^16.13.1",
     "react-cosmos": "^5.4.0",
     "react-dom": "^16.13.1",
+    "styled-system": "^5.1.5",
     "svg-react-loader": "^0.4.6",
     "typescript": "^3.9.7",
     "webpack": "^4.44.1"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.28"
   }
 }
